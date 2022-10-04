@@ -108,6 +108,5 @@ end
 function LaunchAccount(nick,id,JobId)
 local RAMAccount = Account
 local MyAccount = RAMAccount.new(nick)
-print(MyAccount:LunchAccount(id,JobId))
+print(MyAccount:LaunchAccount(id,JobId))
 end
-LaunchAccount("Feliposo21")
